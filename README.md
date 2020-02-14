@@ -27,7 +27,7 @@ Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였�
 <div>
 <br>
 
-+ Image pre-processing
++ Image pre-processing <br>
 Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 형태로 변형하였습니다. <br>
 먼저 원본 사진에 대해 Naver Clova API-pose estimation을 활용, 사진에 존재하는 사람의 자세 및 위치를 vector화 했습니다.
 <div>

@@ -1,6 +1,12 @@
 
 LSD : Life Shot Director
 =================
+## 0. Intro
+
+Life Shot director(LSD)는 언제 어디서나 유저에게 최적의 사진 구도를 제시하는 app입니다. <br>
+LSD의 핵심 기능은 유저가 배경사진을 찍으면, 
+
+
 ## 1. Data preparation
 
 Model을 구축하기 위해 인스타그램을 기반으로 Image crawling을 진행하였습니다.<br>
@@ -14,3 +20,8 @@ Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 �
 Learning은 크게 두 단계로 구성됩니다.
 
 ## 3. Service
+
+
+## 4. Citiation
+
+'Deeplabv3+' Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation, Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam, ECCV, 2018

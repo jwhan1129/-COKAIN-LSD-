@@ -24,4 +24,4 @@ Learning은 크게 두 단계로 구성됩니다.
 
 ## 4. Citiation
 
-'Deeplabv3+' Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation, Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam, ECCV, 2018
+**Deeplabv3+** Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation, Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam, ECCV, 2018

@@ -30,6 +30,12 @@ Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였�
 + Image pre-processing
 Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 형태로 변형하였습니다. <br>
 
+<div>
+<img src='https://user-images.githubusercontent.com/61034754/74502943-a5fcf900-4f32-11ea-8ddd-f850a5cda0ab.png', width = 1000>
+<div>
+<div>
+<img src='https://user-images.githubusercontent.com/61034754/74502946-a7c6bc80-4f32-11ea-92f7-5cc41732c901.png', width = 1000>
+<div>
 ## 2. Learning
 
 Learning은 크게 두 단계로 구성됩니다.

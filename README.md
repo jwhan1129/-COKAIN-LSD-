@@ -7,6 +7,7 @@ LSD : Life Shot Director
 하지만 인스타그램 인플루언서들처럼 좋은 사진을 찍는 것은 어려운 일입니다. <br>
 Life Shot director(LSD)는 사진에 익숙하지 않은 사람도 언제 어디서나 최적의 구도로 사진을 찍을 수 있도록 가이드 라인을 제시합니다. <br>
 
+LSD는 Naver Pose Estimation API와 다양한 Machine learning model을 활용하여 유저가 찍은 배경사진에서 학습된 패턴을 감지, 가장 많은 사람들이 위치했던 자리를 찾습니다. 
 
 <br>
 <div>
@@ -18,8 +19,8 @@ Life Shot director(LSD)는 사진에 익숙하지 않은 사람도 언제 어디
 
 ## 1. Data preparation
 
-Model을 구축하기 위해 인스타그램을 기반으로 Image crawling을 진행하였습니다.<br>
-Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였으며, 인스타그램의 해시태그 및 인스타그램이 자동으로 제공하는 img.att의 하위 요소들을 활용하여 필터링하였습니다. 그 결과 총 2704개의 Training set과 588개의 test set을 구축할 수 있었습니다.
+Model을 구축하기 위해 인스타그램에서 Image crawling을 진행하였습니다.<br>
+Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였으며, 인스타그램의 해시태그 및 인스타그램이 자동으로 제공하는 사진의 하위 요소들을 활용하여 필터링하였습니다. 그 결과 총 2704개의 Training set과 588개의 test set을 구축했습니다.
 <br>
 <div>
 <img src= 'https://user-images.githubusercontent.com/61034754/74502473-f96e4780-4f30-11ea-8f0d-bff239b125b2.PNG', width = 1000>
@@ -27,7 +28,7 @@ Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였�
 <br>
 Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 형태로 변형하였습니다. <br>
 
-
+## 2. Learning
 
 Learning은 크게 두 단계로 구성됩니다.
 

@@ -5,6 +5,10 @@ LSD : Life Shot Director
 
 Life Shot director(LSD)는 언제 어디서나 유저에게 최적의 사진 구도를 제시하는 app입니다. <br>
 LSD은 유저가 배경사진을 찍으면, 
+<br>
+![요소 추출](https://user-images.githubusercontent.com/61034754/74499093-033e7d80-4f26-11ea-8ca9-d3d7b33f33d1.png)
+![구도 요소 기반 자세 추천](https://user-images.githubusercontent.com/61034754/74499100-076a9b00-4f26-11ea-81c6-db257545ae18.png)
+
 
 
 ## 1. Data preparation

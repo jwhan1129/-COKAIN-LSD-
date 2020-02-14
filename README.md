@@ -24,4 +24,7 @@ Learning은 크게 두 단계로 구성됩니다.
 
 ## 4. Citiation
 
-**Deeplabv3+** Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation, Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam, ECCV, 2018
+**Deeplabv3+** : Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation, Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam, ECCV, 2018 <br>
+
+**DeepFill(inpainting)** : Generative Image Inpainting with Contextual Attention, Yu, Jiahui and Lin, Zhe and Yang, Jimei and Shen, Xiaohui and Lu, Xin and Huang, Thomas S, arXiv preprint arXiv:1801.07892, 2018 / yu2018free, Free-Form Image Inpainting with Gated Convolution, Yu, Jiahui and Lin, Zhe and Yang, Jimei and Shen, Xiaohui and Lu, Xin and Huang, Thomas S, arXiv preprint arXiv:1806.03589, 2018
+

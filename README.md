@@ -4,7 +4,7 @@ LSD : Life Shot Director
 ## 0. Intro
 
 Life Shot director(LSD)는 언제 어디서나 유저에게 최적의 사진 구도를 제시하는 app입니다. <br>
-LSD의 핵심 기능은 유저가 배경사진을 찍으면, 
+LSD은 유저가 배경사진을 찍으면, 
 
 
 ## 1. Data preparation

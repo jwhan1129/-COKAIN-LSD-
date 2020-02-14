@@ -3,14 +3,19 @@ LSD : Life Shot Director
 =================
 ## 0. Intro
 
+인스타그램의 발전과 함께 **사진**을 중심으로하는 SNS가 대세가 되어가고있습니다. <br>
+하지만 인스타그램 인플루언서들처럼 좋은 사진을 찍는 것은 어려운 일입니다. <br>
+
 Life Shot director(LSD)는 언제 어디서나 유저에게 최적의 사진 구도를 제시하는 app입니다. <br>
-LSD은 유저가 배경사진을 찍으면, 
+
+
 <br>
 <div>
 <img src= 'https://user-images.githubusercontent.com/61034754/74500390-14898900-4f2a-11ea-8317-f0d1f2f5559c.png', width = 1000>
 <div>
 <br>
-
+최종적으로 저희는 위의 사진처럼 사진을 찍고자하는 배경을 찍으면, 유저가 가장 예쁜 사진을 찍기 위해 서야하는 위치와 개략적인 자세를 제시하고자 합니다. 
+  
 ## 1. Data preparation
 
 Model을 구축하기 위해 인스타그램을 기반으로 Image crawling을 진행하였습니다.<br>

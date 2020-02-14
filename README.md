@@ -29,13 +29,18 @@ Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였�
 
 + Image pre-processing
 Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 형태로 변형하였습니다. <br>
-
-<div>
-<img src='https://user-images.githubusercontent.com/61034754/74502943-a5fcf900-4f32-11ea-8ddd-f850a5cda0ab.png', width = 1000>
-<div>
+먼저 원본 사진에 대해 Naver Clova API-pose estimation을 활용, 사진에 존재하는 사람의 자세 및 위치를 vector화 했습니다.
 <div>
 <img src='https://user-images.githubusercontent.com/61034754/74502946-a7c6bc80-4f32-11ea-92f7-5cc41732c901.png', width = 1000>
 <div>
+ 
+또한, 이와 별개로 pre-trained model들을 활용, 사람이 존재하는 training용 사진에서 사람을 제거하고, 순수한 배경의 edge 정보만 남겼습니다.
+<div>
+<img src='https://user-images.githubusercontent.com/61034754/74502943-a5fcf900-4f32-11ea-8ddd-f850a5cda0ab.png', width = 1000>
+<div>
+
+이 결과 나온 pose-vector는 learning에서 정답셋으로, 사람이 제거된 배경사진은 input set으로 사용하였습니다.
+
 ## 2. Learning
 
 Learning은 크게 두 단계로 구성됩니다.

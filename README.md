@@ -33,8 +33,8 @@ Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 �
 <img src='https://user-images.githubusercontent.com/61034754/74502946-a7c6bc80-4f32-11ea-92f7-5cc41732c901.png', width = 1000>
 <div>
  
- + Data pre-processing
-또한, 이와 별개로 pre-trained model들을 활용, 사람이 존재하는 training용 사진에서 사람을 제거하고, 순수한 배경의 edge 정보만 남겼습니다.
+ + Data pre-processing <br>
+또한, 이와 별개로 pre-trained model들을 활용, 사람이 존재하는 training용 사진에서 사람을 제거하고, 순수한 배경의 edge 정보만 남겼습니다. 구체적으로 사람을 지우고 위치를 학습시키기 위한 mask를 만들기 위해 Deeplabv3+을, Deeplabv3+에서 나온 mask를 기반으로 사진 상에 존재하는 사람을 제거하기 위해 DeepFill(inpainting)을, 최종적으로 사람이 제거된 사진의 edge만을 추출하기 위해 Holistically-nested edge detection(edge detection)을 사용하였습니다.
 <div>
 <img src='https://user-images.githubusercontent.com/61034754/74502943-a5fcf900-4f32-11ea-8ddd-f850a5cda0ab.png', width = 1000>
 <div>

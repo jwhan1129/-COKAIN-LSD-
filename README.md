@@ -7,8 +7,7 @@ Life Shot director(LSD)는 언제 어디서나 유저에게 최적의 사진 구
 LSD은 유저가 배경사진을 찍으면, 
 <br>
 <div>
-<img src= 'https://user-images.githubusercontent.com/61034754/74499671-d25f4800-4f27-11ea-9aac-c641ad8a5dbb.png' , width = 400>
-<img src= 'https://user-images.githubusercontent.com/61034754/74499669-d12e1b00-4f27-11ea-9212-d8a283e02e39.png', width = 400>
+<img src= 'https://user-images.githubusercontent.com/61034754/74500390-14898900-4f2a-11ea-8317-f0d1f2f5559c.png', width = 700>
 <div>
 <br>
 

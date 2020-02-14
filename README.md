@@ -18,7 +18,7 @@ LSD는 Naver Pose Estimation API와 다양한 Machine learning model을 활용�
 
 
 ## 1. Data preparation
-
++ image collecting
 Model을 구축하기 위해 인스타그램에서 Image crawling을 진행하였습니다.<br>
 Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였으며, 인스타그램의 해시태그 및 인스타그램이 자동으로 제공하는 사진의 하위 요소들을 활용하여 필터링하였습니다. 그 결과 총 2704개의 Training set과 588개의 test set을 구축했습니다.
 <br>

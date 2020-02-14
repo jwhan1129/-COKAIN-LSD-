@@ -1,5 +1,5 @@
 
-#LSD
+LSD : Life Shot Director
 =================
 ## 1. Data preparation
 

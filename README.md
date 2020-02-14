@@ -30,3 +30,7 @@ Learning은 크게 두 단계로 구성됩니다.
 
 **Holistically-nested edge detection (HED)** : Jia13caffe, Yangqing Jia, {Caffe}: An Open Source Convolutional Architecture for Fast Feature Embedding, 2013, http://caffe.berkeleyvision.org/ <br>
 wu2016tensorpack, Tensorpack, Wu, Yuxin and others, https://github.com/tensorpack/, 2016
+
+**Variational AutoEncoder** : 
+
+**VGG net** : simonyan2014deep, Very Deep Convolutional Networks for Large-Scale Image Recognition, Karen Simonyan and Andrew Zisserman, 2014, 1409.1556, arXiv, cs.CV

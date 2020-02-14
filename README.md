@@ -28,7 +28,7 @@ Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였�
 
 + Image pre-processing <br>
 Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 형태로 변형하였습니다. <br>
-먼저 원본 사진에 대해 Naver Clova API-pose estimation을 활용, 사진에 존재하는 사람의 자세 및 위치를 vector화 했습니다.
+먼저 원본 사진에 대해 Naver Clova API-pose estimation을 활용, 사진에 존재하는 사람의 자세 및 위치를 얻었습니다. 이후, pose estimation의 position vector를 일렬로 배열하여 총 54개의 latent vector로 변환했습니다.
 <div>
 <img src='https://user-images.githubusercontent.com/61034754/74502946-a7c6bc80-4f32-11ea-92f7-5cc41732c901.png', width = 1000>
 <div>
@@ -38,7 +38,7 @@ Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 �
 <img src='https://user-images.githubusercontent.com/61034754/74502943-a5fcf900-4f32-11ea-8ddd-f850a5cda0ab.png', width = 1000>
 <div>
 
-이 결과 나온 pose-vector는 learning에서 정답셋으로, 사람이 제거된 배경사진은 input set으로 사용하였습니다.
+이 결과 나온 latent vector는 learning에서 정답셋으로, 사람이 제거된 배경사진은 input set으로 사용하였습니다.
 
 ## 2. Learning
 

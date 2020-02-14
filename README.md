@@ -24,6 +24,7 @@ Crawling과정에서 Selenium library 기반으로 ChromeDriver를 이용하였�
 <div>
 <img src= 'https://user-images.githubusercontent.com/61034754/74502473-f96e4780-4f30-11ea-8f0d-bff239b125b2.PNG', width = 1000>
 <div>
+<br>
 
 + Image pre-processing <br>
 Crawling 된 img는 전처리 과정을 통해 학습 및 분석에 용이한 형태로 변형하였습니다. <br>
